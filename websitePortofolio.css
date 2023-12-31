@@ -1,0 +1,75 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dcdcdc;
+}
+
+nav {
+  background-color: #dcdcdc;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  display: flex;
+  position: sticky;
+}
+
+nav div {
+  width: 50px;
+}
+
+nav ul {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  list-style: none;
+  margin-right: 100px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Segoe UI", sans-serif;
+  color: black;
+  font-weight: 700;
+  padding: 8px 0;
+  transition: all;
+  transition-duration: 100ms;
+  border-bottom: 1px solid rgba(218, 58, 0, 0);
+}
+
+nav ul li a:hover {
+  color: orangered;
+  border-bottom: 1px solid orangered;
+}
+.name {
+  background-color: #2d2c54;
+  color: white;
+  padding: 1em;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 700;
+  width: 160px;
+}
+.introduction {
+  display: inline-block;
+  margin-left: 40px;
+  font-size: 250%;
+  font-family: "Arvo", serif;  
+}
+.hello {
+  font-size: 40%;
+  font-family: "Nunito sans", sans-serif;
+}
+.logo {
+  display: flex;
+  float: right;
+  margin-right: 5%;
+  width: 400px;
+}
+.explanation {
+  display: inline-block;
+  font-size: 45%;
+  font-family: "Nunito sans", sans-serif;
+}
