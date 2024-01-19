@@ -6,11 +6,11 @@ html {
 }
 
 body {
-  background-color: #dcdcdc;
+  background-color: white;
 }
 
 nav {
-  background-color: #dcdcdc;
+  background-color: white;
   justify-content: space-between;
   padding: 1rem 2rem;
   display: flex;
@@ -56,10 +56,10 @@ nav ul li a:hover {
   display: inline-block;
   margin-left: 40px;
   font-size: 250%;
-  font-family: "Arvo", serif;  
+  font-family: "Arvo", serif;
 }
 .hello {
-  font-size: 40%;
+  font-size: 50%;
   font-family: "Nunito sans", sans-serif;
 }
 .logo {
@@ -72,4 +72,35 @@ nav ul li a:hover {
   display: inline-block;
   font-size: 45%;
   font-family: "Nunito sans", sans-serif;
+}
+.SkillnTools {
+  display: flex;
+  font-family: "Nunito sans", sans-serif;
+  font-size: 40px;
+  justify-content: center;
+  margin-left: 40px;
+  margin-top: 50%;
+}
+#Skill_Tools {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.SKILLHead {
+  margin-top: 105px;
+}
+[class~="Head"] {
+  font-size: 150%;
+  margin-left: 75px;
+  font-family: "Segoe UI", sans-serif;
+}
+[class~="Icon"] {
+  /* margin-top: 25px; */
+  width: 4%;
+}
+.skillList {
+  display: inline-flex;
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  
 }
